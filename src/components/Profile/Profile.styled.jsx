@@ -13,7 +13,7 @@ export const Description = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
+  padding: 15px;
 `;
 
 export const Avatar = styled.img`
