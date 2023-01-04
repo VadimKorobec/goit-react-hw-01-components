@@ -29,7 +29,10 @@ export const Status = styled.span`
 export const Avatar = styled.img`
   width: 70px;
   border-radius: 5px;
-  background-color: #ff4500;
+  background-color: #9370db;
 `;
 
-export const Name = styled.p``;
+export const Name = styled.p`
+  font-size: 30px;
+  font-weight: 700px;
+`;
