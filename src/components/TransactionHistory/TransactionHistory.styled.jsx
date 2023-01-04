@@ -32,7 +32,7 @@ export const TableItem = styled.tr`
   text-align: center;
   text-transform: capitalize;
 
-  &:nth-child(even) {
+  &:nth-of-type(even) {
     background-color: #dcdcdc;
   }
   td {
