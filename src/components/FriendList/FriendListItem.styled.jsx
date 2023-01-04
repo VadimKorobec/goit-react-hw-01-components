@@ -4,7 +4,8 @@ export const FriendItem = styled.li`
   display: flex;
   justify-content: start;
   align-items: center;
-  padding: 0px 15px;
+  gap: 20px;
+
   width: 100%;
   height: 80px;
   background-color: #fafafa;
@@ -21,10 +22,14 @@ export const Status = styled.span`
   width: 20px;
   height: 20px;
   border-radius: 50%;
+  margin-left: 20px;
   background-color: ${props => (props.status ? 'green' : 'red')};
 `;
 
 export const Avatar = styled.img`
-  margin-left: 20px;
-  width: 60px;
+  width: 70px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
 `;
+
+export const Name = styled.p``;
