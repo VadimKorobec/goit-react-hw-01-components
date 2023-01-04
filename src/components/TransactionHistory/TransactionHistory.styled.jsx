@@ -15,5 +15,7 @@ export const Table = styled.table`
 export const TableHead = styled.tr`
   height: 40px;
   background-color: #00bfff;
-  /* text-align: center; */
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
 `;
