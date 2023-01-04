@@ -18,4 +18,26 @@ export const TableHead = styled.tr`
   text-align: center;
   text-transform: uppercase;
   color: white;
+
+  th {
+    width: calc(100% / 3);
+    :not(:last-child) {
+      border-right: 1px solid #079aab;
+    }
+  }
+`;
+
+export const TableItem = styled.tr`
+  height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+
+  &:nth-child(even) {
+    background-color: #dcdcdc;
+  }
+  td {
+    & :not(:last-child) {
+      border-right: 1px solid #d3d3d3;
+    }
+  }
 `;
