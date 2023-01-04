@@ -36,7 +36,7 @@ export const TableItem = styled.tr`
     background-color: #dcdcdc;
   }
   td {
-    & :not(:last-child) {
+    :not(:last-child) {
       border-right: 1px solid #d3d3d3;
     }
   }
